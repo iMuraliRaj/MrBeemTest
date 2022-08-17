@@ -1,0 +1,1 @@
+The Lib folder is used to manage the all the dependent jar file for the project.
