@@ -1,0 +1,1 @@
+The Report folder is used to manage the all the output file for the project.
