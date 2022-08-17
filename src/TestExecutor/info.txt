@@ -1,1 +1,1 @@
-The package is manage the Executor of the Testing
+The package is used to manage the all WebElements in the application
