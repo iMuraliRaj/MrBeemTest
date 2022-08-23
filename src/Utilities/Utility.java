@@ -35,13 +35,15 @@ public class Utility
 	
 	public static void screenshot(String location)  throws IOException
 	{
-		TakesScreenshot sc=(TakesScreenshot)driver;
+		
+		TakesScreenshot sc=(TakesScreenshot) driver;
 		
 		File src = sc.getScreenshotAs(OutputType.FILE);
 		
 		File des = new File(location);
 		
 		FileHandler.copy(src, des);
+		
 	}
 
 }
