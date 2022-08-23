@@ -26,5 +26,8 @@ public class ElementClothes
 
 	@FindBy(xpath="//*[@id='']")
 	public static WebElement clothes;
+	
+	@FindBy(xpath="//*[@id='']")
+	public static WebElement signup;
 
 }
