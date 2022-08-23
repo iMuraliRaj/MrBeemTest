@@ -42,4 +42,7 @@ public class ElementClothes
 	@FindBy(xpath="//*[@id='']")
 	public static WebElement howMrBeemHelpAnswer;	
 	
+	@FindBy(xpath="//*[@id='']")
+	public static WebElement howToBuyQuestion;	
+	
 }
