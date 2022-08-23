@@ -12,5 +12,9 @@ public class ElementClothes
 	@FindBy(xpath="//*[@id='']")
 	public static WebElement websiteInformation;
 	
+	@FindBy(xpath="//*[@id='']")
+	public static WebElement websiteSlogan;
+	
+
 
 }
