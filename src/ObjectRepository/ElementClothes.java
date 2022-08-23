@@ -35,4 +35,10 @@ public class ElementClothes
 	
 	@FindBy(xpath="//*[@id='']")
 	public static WebElement logout;
+	
+	@FindBy(xpath="//*[@id='']")
+	public static WebElement howMrBeemHelpQuestion;
+	
+	
+	
 }
