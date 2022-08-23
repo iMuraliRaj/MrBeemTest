@@ -30,4 +30,6 @@ public class ElementClothes
 	@FindBy(xpath="//*[@id='']")
 	public static WebElement signup;
 
+	@FindBy(xpath="//*[@id='']")
+	public static WebElement login;
 }
