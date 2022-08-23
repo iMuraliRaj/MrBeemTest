@@ -15,6 +15,8 @@ public class ElementClothes
 	@FindBy(xpath="//*[@id='']")
 	public static WebElement websiteSlogan;
 	
-
+	@FindBy(xpath="//*[@id='']")
+	public static WebElement dogs;
+	
 
 }
