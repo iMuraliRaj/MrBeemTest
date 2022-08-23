@@ -32,4 +32,7 @@ public class ElementClothes
 
 	@FindBy(xpath="//*[@id='']")
 	public static WebElement login;
+	
+	@FindBy(xpath="//*[@id='']")
+	public static WebElement logout;
 }
