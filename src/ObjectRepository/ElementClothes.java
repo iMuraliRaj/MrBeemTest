@@ -17,6 +17,10 @@ public class ElementClothes
 	
 	@FindBy(xpath="//*[@id='']")
 	public static WebElement dogs;
+		
+	@FindBy(xpath="//*[@id='']")
+	public static WebElement foods;
 	
+
 
 }
