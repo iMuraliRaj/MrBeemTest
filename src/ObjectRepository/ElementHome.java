@@ -15,7 +15,7 @@ public class ElementHome {
 	@FindBy(xpath="//*[@id='//*[@id=\"slogan\"]']")
 	public static WebElement websiteSlogan;
 	
-	@FindBy(xpath="//*[@id='']")
+	@FindBy(xpath="//*[@id='//*[@id=\"dogslink\"]']")
 	public static WebElement dogs;
 		
 	@FindBy(xpath="//*[@id='']")
