@@ -33,7 +33,7 @@ public class ElementHome {
 	@FindBy(xpath="//*[@id='//*[@id=\"loginlink\"]']")
 	public static WebElement login;
 	
-	@FindBy(xpath="//*[@id='']")
+	@FindBy(xpath="//*[@id='//*[@id=\"logoutlink\"]']")
 	public static WebElement logout;
 	
 	@FindBy(xpath="//*[@id='']")
