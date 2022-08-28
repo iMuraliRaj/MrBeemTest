@@ -9,7 +9,7 @@ public class ElementHome {
 	@FindBy(xpath="//*[@id='//*[@id=\"title\"]']")
 	public static WebElement websiteName;
 	
-	@FindBy(xpath="//*[@id='']")
+	@FindBy(xpath="//*[@id='//*[@id=\"shop\"]']")
 	public static WebElement websiteInformation;
 	
 	@FindBy(xpath="//*[@id='']")
