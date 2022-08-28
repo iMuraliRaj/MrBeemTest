@@ -12,7 +12,7 @@ public class ElementHome {
 	@FindBy(xpath="//*[@id='//*[@id=\"shop\"]']")
 	public static WebElement websiteInformation;
 	
-	@FindBy(xpath="//*[@id='']")
+	@FindBy(xpath="//*[@id='//*[@id=\"slogan\"]']")
 	public static WebElement websiteSlogan;
 	
 	@FindBy(xpath="//*[@id='']")
