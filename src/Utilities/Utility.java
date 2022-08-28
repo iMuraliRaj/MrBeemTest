@@ -3,6 +3,7 @@ package Utilities;
 import java.io.File;
 import java.io.IOException;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -29,6 +30,7 @@ public class Utility
 		driver.manage().window().maximize();
 		
 		driver.get("https://imuraliraj.github.io/MrBeem/");
+		
 		
 		
 	}
