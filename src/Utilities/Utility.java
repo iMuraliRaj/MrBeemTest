@@ -58,5 +58,10 @@ public class Utility
 	{
 		element.sendKeys(value);
 	}
+	
+	public static void clear(WebElement element)
+	{
+		element.clear();
+	}
 
 }
