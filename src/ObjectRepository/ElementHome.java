@@ -39,13 +39,13 @@ public class ElementHome {
 	@FindBy(xpath="//*[@id='//*[@id=\"helpQuestion\"]']")
 	public static WebElement howMrBeemHelpQuestion;
 	
-	@FindBy(xpath="//*[@id='']")
+	@FindBy(xpath="//*[@id='//*[@id=\"helpAnswer\"]']")
 	public static WebElement howMrBeemHelpAnswer;	
 	
-	@FindBy(xpath="//*[@id='']")
+	@FindBy(xpath="//*[@id='//*[@id=\"helpQuestion\"]']")
 	public static WebElement howToBuyQuestion;	
 	
-	@FindBy(xpath="//*[@id='']")
+	@FindBy(xpath="//*[@id='//*[@id=\"helpQuestion\"]']")
 	public static WebElement howToBuyAnswer;	
 
 }

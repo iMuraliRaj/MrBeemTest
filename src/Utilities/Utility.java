@@ -30,9 +30,7 @@ public class Utility
 		
 		driver.manage().window().maximize();
 		
-		driver.get("https://imuraliraj.github.io/MrBeem/");
-		
-		
+		driver.get("https://imuraliraj.github.io/MrBeem/");		
 		
 	}
 	
@@ -86,5 +84,7 @@ public class Utility
 		}
 		
 	}
+	
+	
 
 }
