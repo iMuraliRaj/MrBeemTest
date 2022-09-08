@@ -62,6 +62,17 @@ public class Utility
 		
 	}
 	
+	public static void sendKeys(WebElement element, String value)
+	{
+		try 
+		{
+			element.sendKeys(value);
+		}
+		catch (Exception e) 
+		{
+			// TODO: handle exception
+		}
+	}
 
 
 }
