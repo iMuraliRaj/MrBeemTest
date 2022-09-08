@@ -42,7 +42,7 @@ public class ElementHome {
 	@FindBy(xpath="//*[@id='//*[@id=\"helpAnswer\"]']")
 	public static WebElement howMrBeemHelpAnswer;	
 	
-	@FindBy(xpath="//*[@id='//*[@id=\"helpQuestion\"]']")
+	@FindBy(xpath="//*[@id='//*[@id=\"buyQuestion\"]']")
 	public static WebElement howToBuyQuestion;	
 	
 	@FindBy(xpath="//*[@id='//*[@id=\"helpQuestion\"]']")
