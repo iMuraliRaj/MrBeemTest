@@ -73,6 +73,18 @@ public class Utility
 			// TODO: handle exception
 		}
 	}
-
+	
+	public static void clear(WebElement element)
+	{
+		try 
+		{
+			element.clear();
+		}
+		catch (Exception e) 
+		{
+			// TODO: handle exception
+		}
+		
+	}
 
 }
