@@ -53,5 +53,10 @@ public class Utility
 	{
 		element.click();
 	}
+	
+	public static void sendKeys(WebElement element, String value)
+	{
+		element.sendKeys(value);
+	}
 
 }
