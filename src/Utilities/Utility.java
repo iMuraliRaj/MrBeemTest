@@ -51,17 +51,17 @@ public class Utility
 	
 	public static void click(WebElement element)
 	{
-		element.click();
+		try 
+		{
+			element.click();
+		}
+		catch (Exception e) 
+		{
+			// TODO: handle exception
+		}
+		
 	}
 	
-	public static void sendKeys(WebElement element, String value)
-	{
-		element.sendKeys(value);
-	}
-	
-	public static void clear(WebElement element)
-	{
-		element.clear();
-	}
+
 
 }
