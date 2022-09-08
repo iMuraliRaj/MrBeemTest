@@ -55,6 +55,6 @@ public class ElementHome {
 	@FindBy(xpath="//*[@id=\"importantceAnswer\"]")
 	public static WebElement importanceOfPetAnswer;	
 	
-	@FindBy(xpath="//*[@id=\"buyAnswer\"]']")
-	public static WebElement developedByName;	
+	@FindBy(xpath="//*[@id=\"designername\"]")
+	public static WebElement designedByName;	
 }
