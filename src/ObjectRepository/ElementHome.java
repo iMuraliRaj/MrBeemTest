@@ -6,16 +6,16 @@ import org.openqa.selenium.support.FindBy;
 public class ElementHome {
 
 	
-	@FindBy(xpath="//*[@id='//*[@id=\"title\"]']")
+	@FindBy(xpath="//*[@id=\"title\"]']")
 	public static WebElement websiteName;
 	
-	@FindBy(xpath="//*[@id='//*[@id=\"shop\"]']")
+	@FindBy(xpath="//*[@id=\"shop\"]']")
 	public static WebElement websiteInformation;
 	
-	@FindBy(xpath="//*[@id='//*[@id=\"slogan\"]']")
+	@FindBy(xpath="//*[@id=\"slogan\"]']")
 	public static WebElement websiteSlogan;
 	
-	@FindBy(xpath="//*[@id='//*[@id=\"dogslink\"]']")
+	@FindBy(xpath="//*[@id=\"dogslink\"]']")
 	public static WebElement dogs;
 		
 	@FindBy(xpath="//*[@id='//*[@id=\"foodslink\"]']")
@@ -48,4 +48,13 @@ public class ElementHome {
 	@FindBy(xpath="//*[@id='//*[@id=\"buyAnswer\"]']")
 	public static WebElement howToBuyAnswer;	
 
+	
+	@FindBy(xpath="//*[@id=\"helpAnswer\"]")
+	public static WebElement importanceOfPetHeading;	
+	
+	@FindBy(xpath="//*[@id=\"importantceAnswer\"]")
+	public static WebElement importanceOfPetAnswer;	
+	
+	@FindBy(xpath="//*[@id=\"buyAnswer\"]']")
+	public static WebElement developedByName;	
 }
