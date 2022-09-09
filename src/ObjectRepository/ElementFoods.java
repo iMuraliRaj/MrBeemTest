@@ -32,4 +32,9 @@ public class ElementFoods {
 	
 	@FindBy(xpath="")
 	public static WebElement foodQuantity;
+	
+	
+	@FindBy(xpath="")
+	public static WebElement foodPlaceOrder;
+	
 }
