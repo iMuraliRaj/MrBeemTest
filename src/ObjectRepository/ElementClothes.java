@@ -9,5 +9,4 @@ public class ElementClothes
 	@FindBy(xpath="//*[@id=\"clotheslink\"]']")
 	public static WebElement clothes;
 	
-
 }
