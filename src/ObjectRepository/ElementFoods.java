@@ -15,4 +15,7 @@ public class ElementFoods {
 	
 	@FindBy(xpath="")
 	public static WebElement foodSlogan;
+	
+	@FindBy(xpath="")
+	public static WebElement foodHome;
 }
