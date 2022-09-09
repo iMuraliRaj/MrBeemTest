@@ -27,5 +27,9 @@ public class ElementFoods {
 	
 	
 	@FindBy(xpath="")
+	public static WebElement foodQuantityLabel;
+	
+	
+	@FindBy(xpath="")
 	public static WebElement foodQuantity;
 }
