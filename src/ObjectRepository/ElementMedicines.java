@@ -15,6 +15,32 @@ public class ElementMedicines
 	@FindBy(xpath="")
 	public static WebElement foodSlogan;
 
+	@FindBy(xpath="")
+	public static WebElement foodHome;
+
+
+	@FindBy(xpath="")
+	public static WebElement foodNameLabel;
+
+
+	@FindBy(xpath="")
+	public static WebElement foodName;
+
+
+	@FindBy(xpath="")
+	public static WebElement foodQuantityLabel;
+
+
+	@FindBy(xpath="")
+	public static WebElement foodQuantity;
+
+
+	@FindBy(xpath="")
+	public static WebElement foodPlaceOrder;
+
+
+	@FindBy(xpath="")
+	public static WebElement foodOrderSuccessMessage;
 
 
 }
