@@ -24,7 +24,7 @@ public class ElementMedicines
 
 
 	@FindBy(xpath="")
-	public static WebElement foodName;
+	public static WebElement medicine;
 
 
 	@FindBy(xpath="")
