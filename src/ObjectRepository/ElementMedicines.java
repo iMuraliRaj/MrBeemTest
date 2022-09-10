@@ -13,7 +13,7 @@ public class ElementMedicines
 	public static WebElement medicineWelcome;
 	
 	@FindBy(xpath="")
-	public static WebElement foodSlogan;
+	public static WebElement medicineSlogan;
 
 	@FindBy(xpath="")
 	public static WebElement foodHome;
