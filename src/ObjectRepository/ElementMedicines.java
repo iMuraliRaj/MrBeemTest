@@ -9,7 +9,8 @@ public class ElementMedicines
 	@FindBy(xpath="//*[@id=\"clotheslink\"]']")
 	public static WebElement medicines;
 
+	@FindBy(xpath="")
+	public static WebElement foodWelcome;
 
-	
 
 }
