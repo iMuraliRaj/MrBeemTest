@@ -11,6 +11,10 @@ public class ElementMedicines
 
 	@FindBy(xpath="")
 	public static WebElement foodWelcome;
+	
+	@FindBy(xpath="")
+	public static WebElement foodSlogan;
+
 
 
 }
