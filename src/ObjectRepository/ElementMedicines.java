@@ -20,7 +20,7 @@ public class ElementMedicines
 
 
 	@FindBy(xpath="")
-	public static WebElement foodNameLabel;
+	public static WebElement mecineNameLabel;
 
 
 	@FindBy(xpath="")
