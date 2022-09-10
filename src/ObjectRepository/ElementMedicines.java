@@ -23,24 +23,6 @@ public class ElementMedicines
 	public static WebElement foodNameLabel;
 
 
-	@FindBy(xpath="")
-	public static WebElement foodName;
-
-
-	@FindBy(xpath="")
-	public static WebElement foodQuantityLabel;
-
-
-	@FindBy(xpath="")
-	public static WebElement foodQuantity;
-
-
-	@FindBy(xpath="")
-	public static WebElement foodPlaceOrder;
-
-
-	@FindBy(xpath="")
-	public static WebElement foodOrderSuccessMessage;
 
 
 }
